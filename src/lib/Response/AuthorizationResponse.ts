@@ -4,4 +4,5 @@
 export class AuthorizationResponse {
     code:string = 'code';
     state:string = null;
+
 }
