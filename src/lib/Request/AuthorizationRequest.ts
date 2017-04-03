@@ -4,6 +4,15 @@ import {AuthorizationRequestInterface} from "./AuthorizationRequestInterface";
  */
 export class AuthorizationRequest implements AuthorizationRequestInterface{
     type:string = 'AuthorizationRequest';
+
+    /**
+     *
+     * @param responseType
+     * @param clientId
+     * @param redirectUri
+     * @param scope
+     * @param state
+     */
     constructor(public responseType:string, public clientId:string, public redirectUri:string = null, public scope:string[] = null, public state:string = null){}
 
 }
