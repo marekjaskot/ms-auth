@@ -13,7 +13,7 @@
  *
  */
 export interface AccessTokenRequestInterface {
-    type: 'AccessTokenRequest';
+     type: string;
 
     /**
      * REQUIRED.  Value MUST be set to "authorization_code".
