@@ -10,6 +10,5 @@ export class Authorization {
 
     public authorize(){
         this.token.generateToken()
-
     }
 }

@@ -1,7 +1,7 @@
 /**
  * Created by Marek on 19.12.2016.
  */
-export class Application {
+export class OAuthClient {
     constructor(protected id:number, protected secret:string){
 
     }
